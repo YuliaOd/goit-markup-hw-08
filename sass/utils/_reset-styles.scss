@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.textarea {
+    resize: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.71;
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+
+}
+
+
+
+span {
+    color: #2196F3;
+}

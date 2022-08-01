@@ -1,0 +1,101 @@
+.line {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.page-heder__logo {
+    display: flex;
+    align-items: center;
+    color: $color-text-primary;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    Font-size: 26px;
+    line-height: 1.714;
+    margin-right: 93px;
+}
+
+.page-heder {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.nav-heder {
+    display: flex;    
+}
+
+.nav-heder .item+.item {
+    margin-left: 40px;
+}
+
+.adress-header {
+    display: flex;
+    margin-left: auto;
+}
+
+.item-adr {
+    margin-right: 50px;
+&:last-child {
+        margin-right: 0px;}
+}
+
+.contact-icon {
+    margin-right: 10px;
+    fill: currentcolor;
+}
+
+.nav-heder__list-nav {
+    display: block;
+    color: $color-text-primary;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: $cubic-bezier-color;
+  &:hover,
+  &:focus {color: $color-accent; }
+}
+
+.list-nav-adress {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-text-additional;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: $cubic-bezier-color;
+
+    &:hover .contact-icon {fill: $color-accent;}
+    &:hover,
+    &:focus {color: $color-accent;}
+}
+
+.nav-heder__list-nav.current {
+    position: relative;
+    color: $color-accent;
+    
+}
+
+.nav-heder__list-nav.current.current::after {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $color-accent;
+    border-radius: 2px;
+}
+
+

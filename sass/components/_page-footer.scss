@@ -1,0 +1,95 @@
+footer {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    letter-spacing: 0.03em;
+    background-color: $color-background-secondary;
+}
+
+.logo-footer {
+    color: $color-primary;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    Font-size: 26px;
+    line-height: 1.19;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.social-studio {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.container-footer {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.adress-footer {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    margin-bottom: 9px;
+    transition: $cubic-bezier-color;
+
+    &:hover,
+    &:focus {color: $color-accent;}
+}
+
+
+.adress-footer-map {
+    color: $color-primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 9px;
+}
+
+.link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: $color-primary;
+    height: 44px;
+    width: 44px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: $cubic-bezier-fill;
+
+    &:hover,
+    &:focus {background-color: $color-accent;}
+}
+
+
+.nets-footer+.nets-footer {
+    margin-left: 10px;
+}
+
+.footer-icon {
+    display: block;
+    padding-top: 0px;
+    margin-left: 70px;
+}
+
+.conect {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:$color-primary;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+
