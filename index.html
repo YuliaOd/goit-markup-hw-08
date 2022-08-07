@@ -106,7 +106,7 @@
       </div>         
       </section>        
         <section class="activity">  
-          <div class="services"> 
+          <div class="container-services"> 
         <h2 class="section-hero">Чем мы занимаемся</h2>        
         <ul class="pictures">
           <li class="services-card">    
@@ -309,7 +309,8 @@
         <section class="clients"> 
           <div class="clients-card">
              <h2 class="section-hero">Постоянные клиенты</h2>
-             <ul class="compani">
+             
+             <ul class="compani">              
               <li class="compani-card">
                 <a href="#" class="link-clients">
                     <svg class="clients-compani" width="41" height="47">
@@ -353,6 +354,7 @@
                   </a>
               </li>
              </ul>
+           
           </div>
         </section>        
     </main>   
@@ -461,19 +463,21 @@
               <use href="./image/icons.svg/symbol-defs.svg#icon-icon-check"></use>
             </svg>
           </label>
+          <div class="button-center">
         <button class="hero__button" type="submit">Отправить</button>
-        </form>
+      </div>  
+      </form>
           </div>
        </div>
 
       <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
+        <div class="menu-backdrop__container">
+        <button class="menu-toggle js-close-menu">
         <svg class="mobil-icon" aria-hidden="true" width="40" height="40" >
         <use href="./image/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1-1"></use>
        </button>
-       <div class="mobile-menu">
-        <div class="container-mobile">
-        <nav>
+   
+        <nav class="mobile-header">
         <ul class="mobile-menu-list">
           <li class="mobile-item"><a class="mobile-menu-list__list-nav nav__link--current" href="./index.html">Студия</a></li>
           <li class="mobile-item"><a class="mobile-menu-list__list-nav" href="./portfolio.html">Портфолио</a></li>
@@ -502,7 +506,6 @@
                 <a href="" class="page-header__social-link">LinkedIn</a>
             </li>
         </ul>
-      </div>
       </div>
        </div>
 
