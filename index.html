@@ -65,7 +65,7 @@
           <li class="advantages">       
               <div class="icon">             
               <svg class="icon__text">
-              <use  href="./image/icons.svg/symbol-defs.svg#icon-antenna">
+              <use  href="./image/icons.svg/symbol-defs#icon-antenna.svg">
               </svg>                             
             </div>  
             <h3 class="advantages__title">Внимание к деталям</h3>
@@ -139,9 +139,25 @@
         <h2 class="section-hero">Наша команда</h2>
         <ul class="employees">
           <li class="employees-people">
-            <img srcset="./image/descop1x/igor-des.jpg 1x,
-            ./image/descop2x/igor-des@2x.jpg 2x " 
-            alt="Игорь Демьяненко" width="450" />                 
+            <picture>   
+
+              <source media="(min-width: 1200px)" srcset="./image/descop1xWebp/igor-des.webp 1x,
+              ./image/descop2xWebp/igor-des@2x.webp 2x" type="image/webp">
+              <source media="(min-width: 768px)" srcset="./image/tabl1xWebp/igor-tab.webp 1x,
+              ./image/tabl2xWebp/igor-tab@2x.webp 2x" type="image/webp">
+              <source media="(max-width: 767px)" srcset="./images/mobil1xWebp/igor-mob.webp 1x, 
+              ./images/mobil2xWebp/igor-mob@2x.webp 2x" type="image/webp">
+             
+              <source media="(min-width: 1200px)" srcset="./images/descop1x/igor-des.jpg 1x,
+              ./images/descop2x/igor-des@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="./images/tabl1x/igor-tab.jpg 1x,
+              ./images/tabl2x/igor-tab@2x.jpg 2x">
+              <source media="(max-width: 767px)" srcset="./images/mobil1x/igor-mob.jpg 1x, 
+              ./images/mobil2x/igor-mob@2x.jpg 2x">
+              <img src="./image/descop1x/igor-des.jpg 1x, ./image/descop2x/igor-des@2x.jpg 2x"
+              alt="Игорь Демьяненко" width="450" />  
+              
+              </picture>                    
             <div class="employees-card">
             <h3 class="employees-card__name">Игорь Демьяненко</h3>
             <p class="employees-card__work">Product Designer</p>
@@ -179,11 +195,26 @@
           </div>
           </div>
           </li>
-          <li class="employees-people">
-             <img srcset="./image/descop1x/olga-des.jpg 1x,
-            ./image/descop2x/olga-des@2x.jpg 2x "  
-            alt="Ольга Репина" width="450" />
-            <div class="employees-card">
+          <li class="employees-people">            
+            <picture>
+              <source media="(min-width: 1200px)" srcset="./image/descop1xWebp/olga-des.webp 1x,
+              ./image/descop2xWebp/olga-des@2x.webp 2x" type="image/webp">
+              <source media="(min-width: 768px)" srcset="./image/tabl1xWebp/olga-tab.webp 1x,
+              ./image/tabl2xWebp/olga-tab@2x.webp 2x" type="image/webp">
+              <source media="(max-width: 767px)" srcset="./images/mobil1xWebp/olga-mob.webp 1x, 
+              ./images/mobil2xWebp/olga-mob@2x.webp 2x" type="image/webp">
+             
+              <source media="(min-width: 1200px)" srcset="./images/descop1x/olga-des.jpg 1x,
+              ./images/descop2x/olga-des@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="./images/tabl1x/olga-tab.jpg 1x,
+              ./images/tabl2x/olga-tab@2x.jpg 2x">
+              <source media="(max-width: 767px)" srcset="./images/mobil1x/olga-mob.jpg 1x, 
+              ./images/mobil2x/olga-mob@2x.jpg 2x">
+              <img src="./image/descop1x/olga-des.jpg 1x, ./image/descop2x/olga-des@2x.jpg 2x"
+              alt="Ольга Репина" width="450" />                    
+            </picture>         
+
+              <div class="employees-card">
             <h3 class="employees-card__name">Ольга Репина</h3>
             <p class="employees-card__work">Frontend Developer</p>
             <div class="social"> 
@@ -221,9 +252,24 @@
           </div>
           </li>
           <li class="employees-people">
-           <img srcset="./image/descop1x/niko-des.jpg 1x,
-            ./image/descop2x/niko-des@2x.jpg 2x "
-            alt="Николай Тарасов" width="450" />
+            <picture>
+              <source media="(min-width: 1200px)" srcset="./image/descop1xWebp/niko-des.webp 1x,
+              ./image/descop2xWebp/niko-des@2x.webp 2x" type="image/webp">
+              <source media="(min-width: 768px)" srcset="./image/tabl1xWebp/niko-tab.webp 1x,
+              ./image/tabl2xWebp/niko-tab@2x.webp 2x" type="image/webp">
+              <source media="(max-width: 767px)" srcset="./images/mobil1xWebp/niko-mob.webp 1x, 
+              ./images/mobil2xWebp/niko-mob@2x.webp 2x" type="image/webp">
+             
+              <source media="(min-width: 1200px)" srcset="./images/descop1x/niko-des.jpg 1x,
+              ./images/descop2x/niko-des@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="./images/tabl1x/niko-tab.jpg 1x,
+              ./images/tabl2x/niko-tab@2x.jpg 2x">
+              <source media="(max-width: 767px)" srcset="./images/mobil1x/niko-mob.jpg 1x, 
+              ./images/mobil2x/niko-mob@2x.jpg 2x">
+              <img src="./image/descop1x/niko-des.jpg 1x, ./image/descop2x/niko-des@2x.jpg 2x"
+              alt="Николай Тарасов" width="450" />                    
+            </picture>      
+
             <div class="employees-card">
             <h3 class="employees-card__name">Николай Тарасов</h3>
             <p class="employees-card__work">Marketing</p>
@@ -262,9 +308,24 @@
           </div>
           </li>
           <li class="employees-people">
-            <img srcset="./image/descop1x/mix-des.jpg 1x,
-            ./image/descop2x/mix-des@2x.jpg 2x "
-            alt="Михаил Ермаков" width="450" />
+
+            <picture>
+              <source media="(min-width: 1200px)" srcset="./image/descop1xWebp/mix-des.webp 1x,
+              ./image/descop2xWebp/mix-des@2x.webp 2x" type="image/webp">
+              <source media="(min-width: 768px)" srcset="./image/tabl1xWebp/mix-tab.webp 1x,
+              ./image/tabl2xWebp/mix-tab@2x.webp 2x" type="image/webp">
+              <source media="(max-width: 767px)" srcset="./images/mobil1xWebp/mix-mob.webp 1x, 
+              ./images/mobil2xWebp/mix-mob@2x.webp 2x" type="image/webp">
+             
+              <source media="(min-width: 1200px)" srcset="./images/descop1x/mix-des.jpg 1x,
+              ./images/descop2x/mix-des@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="./images/tabl1x/mix-tab.jpg 1x,
+              ./images/tabl2x/mix-tab@2x.jpg 2x">
+              <source media="(max-width: 767px)" srcset="./images/mobil1x/mix-mob.jpg 1x, 
+              ./images/mobil2x/mix-mob@2x.jpg 2x">
+              <img src="./image/descop1x/mix-des.jpg 1x, ./image/descop2x/mix-des@2x.jpg 2x"
+              alt="Михаил Ермаков" width="450" />                    
+            </picture>   
             <div class="employees-card">
             <h3 class="employees-card__name">Михаил Ермаков</h3>
             <p class="employees-card__work">UI Designer</p>
